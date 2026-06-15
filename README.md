@@ -9,17 +9,28 @@ SketchXAI is an explainable AI framework designed to introduce dual-engine trans
 Based on the project workspace layout, the repository is organized as follows:
 
 ```text
-├── figures/                          # Stored visual evaluations and system pipelines
-│   ├── baseline_345_convergence.png  # Loss/accuracy curves for the 345-class model
-│   ├── baseline_345_similar_slice.png# Animal contamination confusion matrix (345 classes)
-│   └── sketchxai_tier2_animal_slice.png # Clean zoom slice confusion matrix (87 classes)
-├── notebooks/                        # Development and experimental environments
-│   ├── 345_classes.ipynb             # Scalability stress-test baseline codebase
-│   └── SketchXAI_Training.ipynb      # Main 87-class framework training notebook
-├── SKETCHXAI__EXPLAINABLE_AI_F...    # Manuscript documentation / project overview
-├── app.py                            # Core user interface application script
-├── labels.txt                        # Organized class vocabulary targets
-└── sketchxai_matching_model.h5       # Compiled neural network weights file
+├── figures/                              # Comprehensive visual evaluations and system pipelines
+│   ├── SLI_breakdown.png                 # Theoretical schema of Recovery & Transfer mechanics
+│   ├── Streamlit_LIME.png                # UI implementation snapshot of spatial LIME masks
+│   ├── Streamlit_LIME_2.png              # Secondary interface verification of LIME heatmaps
+│   ├── Streamlit_SLI.png                 # UI snapshot highlighting temporal stroke-level ordering
+│   ├── Streamlit_SLI_2.png               # Secondary interface verification of stroke order scores
+│   ├── baseline_345_animal_slice.png     # 7-class animal contamination confusion matrix (345 classes)
+│   ├── baseline_345_convergence.png      # Loss/accuracy curves for the 345-class baseline model
+│   ├── class_convergence.png             # Training convergence trajectories for the 87-class model
+│   ├── image_description.md              # Markdown asset mapping graphic metadata descriptions
+│   ├── sketchxai_lime_step_by_step.png   # Step-by-step visual parsing of superpixel perturbation
+│   ├── sketchxai_multiclass_metrics_ch...# Global performance metrics and classification charts
+│   ├── sketchxai_preprocessing_pipeli... # Visual schema of scaling, reshaping, and normalization data pipeline
+│   ├── sketchxai_tier1_global_silhouett...# Macro-level confusion matrix silhouette overview
+│   └── sketchxai_tier2_animal_slice.png  # Curated zoom slice confusion matrix (87 classes)
+├── notebooks/                            # Development and experimental environments
+│   ├── 345_classes.ipynb                 # Scalability stress-test baseline codebase
+│   └── SketchXAI_Training.ipynb          # Main 87-class framework training notebook
+├── SKETCHXAI__EXPLAINABLE_AI_F...        # Manuscript documentation / project overview
+├── app.py                                # Core user interface application script
+├── labels.txt                            # Organized class vocabulary targets
+└── sketchxai_matching_model.h5           # Compiled neural network weights file
 
 ```
 
