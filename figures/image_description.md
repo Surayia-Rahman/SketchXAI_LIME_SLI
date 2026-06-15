@@ -1,4 +1,4 @@
-### 📊 SketchXAI Deliverables Matrix
+### SketchXAI Deliverables Matrix
 
 | Graphic Asset File | Presentation Slide Title | Core Analytical Purpose | Academic Defense Target |
 | --- | --- | --- | --- |
